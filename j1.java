@@ -16,7 +16,7 @@ public class j1 {
     public static void getResult(int a,int b){
         if (a == b) {
             System.out.println("Draw !!!");
-        } else if (a == 0 && b == 1 || a == 1 && b == 0 || a == 2 && b == 1) {
+        } else if (a == 0 && b == 1 || a == 1 && b == 2 || a == 2 && b == 0) {
             System.out.println("You Win !!!");
         } else {
             System.out.println("Computer Win !!!");
